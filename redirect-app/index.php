@@ -1,7 +1,7 @@
 <?php
 
 // Get ConfigMap with group mapping located at ./mapping.json.
-$json = file_get_contents( "./mapping.json" );
+$json = file_get_contents( "mapping/mapping.json" );
 
 // If ConfigMap is not provided, return a 500 error.
 if ( $json === false ) {
